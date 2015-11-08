@@ -9,7 +9,8 @@ namespace _3uzd
     {
         static void Main(string[] args)
         {
-            int x, y, w;
+            int x, y, w, z;
+
 
             Console.WriteLine("Ievadiet x \n\t");
             x = int.Parse(Console.ReadLine());
@@ -21,8 +22,18 @@ namespace _3uzd
                 + "\n\ty = " + y.ToString());
             w = x + y;
 
+
             Console.WriteLine("\n\tx un y summa ir : {0}", x+y);
-            Console.ReadKey();
+
+            z = x * y;
+            Console.WriteLine("\n\tx * y = " + z.ToString() + "\n");
+            for (int i = 0; i < z; i++)
+            {
+                Console.Write("* ");
+            }
+
+                Console.ReadKey();
+
         }
     }
 }
