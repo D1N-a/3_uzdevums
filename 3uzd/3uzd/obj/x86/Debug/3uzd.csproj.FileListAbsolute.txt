@@ -1,0 +1,4 @@
+C:\Users\Diana\Desktop\3uzdevums\3uzd\3uzd\bin\Debug\3uzd.exe
+C:\Users\Diana\Desktop\3uzdevums\3uzd\3uzd\bin\Debug\3uzd.pdb
+C:\Users\Diana\Desktop\3uzdevums\3uzd\3uzd\obj\x86\Debug\3uzd.exe
+C:\Users\Diana\Desktop\3uzdevums\3uzd\3uzd\obj\x86\Debug\3uzd.pdb

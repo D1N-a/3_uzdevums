@@ -9,6 +9,18 @@ namespace _3uzd
     {
         static void Main(string[] args)
         {
+            int x, y;
+
+            Console.WriteLine("Ievadiet x \n\t");
+            x = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("\nIevadiet y\n\t");
+            y = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("\n\tx = " + x.ToString()
+                + "\n\ty = " + y.ToString());
+
+            Console.ReadKey();
         }
     }
 }
