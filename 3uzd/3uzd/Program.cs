@@ -21,8 +21,13 @@ namespace _3uzd
                 + "\n\ty = " + y.ToString());
 
             z = x * y;
-            Console.WriteLine("\n\tx * y = " + z.ToString());
-            Console.ReadKey();
+            Console.WriteLine("\n\tx * y = " + z.ToString() + "\n");
+            for (int i = 0; i < z; i++)
+            {
+                Console.Write("* ");
+            }
+
+                Console.ReadKey();
         }
     }
 }
