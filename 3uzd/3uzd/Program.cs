@@ -21,7 +21,7 @@ namespace _3uzd
                 + "\n\ty = " + y.ToString());
             w = x + y;
 
-            Console.WriteLine("\n\tx + y = " + w.ToString());
+            Console.WriteLine("\n\tx un y summa ir : {0}", x+y);
             Console.ReadKey();
         }
     }
